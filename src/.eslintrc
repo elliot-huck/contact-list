@@ -1,6 +1,6 @@
 {
-  "parserOptions": {
-      "ecmaVersion": 6,
+    "parserOptions": {
+        "ecmaVersion": 6,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
@@ -12,7 +12,7 @@
             "error",
             "double"
         ],
-        "eqeqeq": 2,
-        "no-trailing-spaces": 2
+        "eqeqeq": "error",
+        "no-trailing-spaces": "warn"
     }
-  }
+}
